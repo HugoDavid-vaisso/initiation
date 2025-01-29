@@ -1,17 +1,17 @@
 {
-  "name": "model-template",
+  "name": "initiation",
   "version": "1.0.4",
-  "repository": "git@github.com:publicodes/model-template.git",
-  "homepage": "https://github.com/publicodes/model-template#readme",
+  "repository": "git@github.com:HugoDavid-vaisso/initiation.git",
+  "homepage": "https://github.com/HugoDavid-vaisso/initiation#readme",
   "description": "",
   "authors": [
     "Emile Rolley <emile.rolley@tuta.io>"
   ],
   "bugs": {
-    "url": "https://github.com/publicodes/model-template/issues"
+    "url": "https://github.com/HugoDavid-vaisso/initiation/issues"
   },
   "files": [
-    "model-template.model.json",
+    "initiation.model.json",
     "index.js",
     "index.d.ts"
   ],
@@ -20,7 +20,7 @@
   "module": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "clean": "rm -r model-template.model.json index.d.ts index.js",
+    "clean": "rm -r initiation.model.json index.d.ts index.js",
     "build": "node build.js",
     "api": "cd api && yarn start",
     "doc": "yarn run build && cd doc && yarn run dev",

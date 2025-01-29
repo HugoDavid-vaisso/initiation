@@ -1,9 +1,9 @@
 {
-  "name": "model-template-doc",
+  "name": "initiation-doc",
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://publicodes.github.io/model-template",
+  "homepage": "https://HugoDavid-vaisso.github.io/initiation",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
