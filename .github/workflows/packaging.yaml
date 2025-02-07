@@ -72,7 +72,7 @@
        - run: bun i --frozen-lockfile && bun i --frozen-lockfile --cwd doc
        - run: bun run doc:build
        - name: Deploy
-         uses: actions/deploy-pages@v4
+         uses: actions/deploy-pages@v4 #crazy-max/ghaction-github-pages@v3
          with:
            target_branch: gh-pages
            build_dir: doc/build
